@@ -1,8 +1,8 @@
 require 'pry'
 
 def get_user_input
-  binding.pry
   gets.chomp
+   binding.pry
 end
 
 def prompt_user
